@@ -1,0 +1,59 @@
+#
+# global excludes
+#
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+.env
+stats.html
+
+# Removing npm generated files, as this project uses yarn
+package-lock.json
+
+# server
+/server/coverage/
+/server/log
+/server/npm-debug.log
+/server/.istanbul.yml
+
+# nyc test coverage
+.nyc_output
+
+# testing
+/react-app/coverage
+coverage/
+
+# production
+/react-app/build
+
+# misc
+/react-app/.env.local
+/react-app/.env.development.local
+/react-app/.env.test.local
+/react-app/.env.production.local
+
+/docker/volumes
+build
+server-build
+
+*.pem
+secrets
+
+.yalc
+yalc.lock
+
+*.tgz
+
+# editor files
+.vscode
+
+test-results.xml
+
+.garden
+*.env
+
+# IDE
+.idea
+
